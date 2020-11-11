@@ -1,0 +1,22 @@
+.tweet-contain{
+    font-size: 1.2rem;
+}
+.tweet-contain> News > news1 >img{
+    background-color: blue;
+    width: 4rem;
+}
+.tweet {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tweet>div{
+    display: flex;
+    align-items: center;
+}
+.tweet >div>div> svg {
+    margin: .5rem;
+    padding: .5rem;
+}
+.tweet>div>font{
+    font-size: 1rem;
+}
