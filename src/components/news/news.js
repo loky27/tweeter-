@@ -1,8 +1,6 @@
 import React from 'react';
-import Interaction from "../interaction/interaction";
-import './styles.css';
-
-class Tweet extends React.Component{
+import Interaction from '../interaction/interaction'
+class News extends React.Component{
     render(){
         return (
             <div className="tweet-container">
@@ -11,14 +9,13 @@ class Tweet extends React.Component{
                         <img src={this.props.profileUrl} alt="profile" />
                     </div>
                     <div className="c2">
-                        <h6>{this.props.profile}</h6>
-                        <h6>{this.props.username}</h6>
+                        <h6> Category:{this.props. category}</h6>
+                        <h5>title:{this.props.title}</h5>
                     </div>
-                    <div className="c3"></div>
                 </div>
                 <div className="row">
                     <p className="content">                
-                        {this.props.content}
+                        {this.props.contentnotice}
                     </p>
                 </div>
                 <div>
@@ -29,8 +26,4 @@ class Tweet extends React.Component{
     }
 }
 
-export default Tweet;
-
-// https://hipertextual.com/files/2012/06/twitter-bird-white-on-blue.jpg
-//@TwitterSafety
-//Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus et enim sodales congue sed ac ante. Maecenas tincidunt tortor vel lorem semper vestibulum. Phasellus placerat arcu ac dui ultricies, sed tempor dolor rhoncus. Cras id leo sem.
+export default News;

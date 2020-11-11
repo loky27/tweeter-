@@ -12,12 +12,13 @@ class Feed extends React.Component {
 
     render() {
 
-        const {profile, profileName, username, content, display} = {
+        const {profile, profileName, username, content, display,interaction} = {
             profile: "",
             profileName: "",
             username: "",
             content: "",
-            display: ""
+            display: "",
+            interaction:""
         };
 
         return (
@@ -29,7 +30,9 @@ class Feed extends React.Component {
                                 profile={tweet.profile}
                                 profileUrl={profileName}
                                 username={tweet.username}
-                                content={tweet.content}/>
+                                content={tweet.content}
+                                interaction={tweet.interaction}
+                            />
                         )
                     })
                 }

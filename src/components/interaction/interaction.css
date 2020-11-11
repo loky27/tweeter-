@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container>div{
+    display: flex;
+    align-items: center;
+}
+.flex-container >div>div>svg {
+    margin: .5rem;
+    padding: .5rem;
+}
+.flex-container>div>font{
+    font-size: 1rem;
+}
