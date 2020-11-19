@@ -1,6 +1,8 @@
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
 }
 .flex-container>div{
     display: flex;

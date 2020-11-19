@@ -1,8 +1,9 @@
 .t-sidebar-col{
     height:41.5rem;
-    overflow:scroll ;
+    overflow-y:scroll ;
     position: sticky;
     top: 0;
     right: 0;
     border: 0;
-}
+    width: 90%;
+  }

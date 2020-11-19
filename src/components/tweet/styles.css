@@ -1,9 +1,11 @@
 .tweet-container{
     display: flex;
     flex-direction: column;   
-    width: 100%;
-    padding: 0em 1em;
-    margin: 0 auto;
+    width: 80%;
+    padding: 0em 1em 1em;
+    margin: 0 auto 1em; 
+    background-color: rgba(201, 201, 201, 0.774);
+    border-radius: 5px;
 }
 
 .row {

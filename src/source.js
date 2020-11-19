@@ -1,5 +1,6 @@
 const feed = [
     {
+        like:false,
         profile: "AJ + Español",
         username: "ajplusespanol",
         content: `Laika fue elegida para viajar al espacio sabiendo que no resistiría.
@@ -15,6 +16,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "Elon Musk",
         username: "elonmusk",
         content: `Several thousand more Starlink beta participation invitations going out this week.
@@ -28,6 +30,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "Google",
         username: "google",
         content: `20 years ago today the first crew of astronauts and researchers arrived at the International Space Station, forever changing how we explore space. Cohete Celebrate #SpaceStation20th with @NASA
@@ -41,6 +44,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "LeBron James",
         username: "KingJames",
         content: `Y’all see the setup right???!!!`,
@@ -53,6 +57,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "BBC Breaking News",
         username: "BBCBreaking",
         content: `Prince William contracted Covid-19 in April at a similar time to his father Prince Charles, palace sources tell BBC
@@ -66,6 +71,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "NVIDIA GeForce",
         username: "NVIDIAGeForce",
         content: `Hitch a ride on the RTX Battle Bus!
@@ -80,6 +86,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "National Geographic",
         username: "NatGeo",
         content: `What's the most soothing experience you've had in nature? (Bonus points if you have a photo or video)`,
@@ -92,6 +99,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "Hipertextual",
         username: "Hipertextual",
         content: `Cinco recomendaciones, y una sorpresa, para ver en Netflix en noviembre`,
@@ -104,6 +112,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "Hipertextual",
         username: "Hipertextual",
         content: `Cinco recomendaciones, y una sorpresa, para ver en Netflix en noviembre`,
@@ -115,6 +124,7 @@ const feed = [
         verified: true,
         blocked: false
     },{
+        like:false,
         profile: "Real Madrid C.F.",
         username: "realmadrid",
         content: `¡El capitán, @SergioRamos, alcanza la cifra de 1️⃣0️⃣0️⃣ goles con la camiseta del 
@@ -128,6 +138,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "UEFA Champions League",
         username: "ChampionsLeague",
         content: `Bayern have won their last 13 Champions League games... #UCL`,
@@ -140,6 +151,7 @@ const feed = [
         blocked: false
     },
     {
+        like:false,
         profile: "FC Barcelona",
         username: "FCBarcelona_es",
         content: `¡La 
@@ -155,6 +167,7 @@ const feed = [
         blocked: true
     },
     {
+        like:false,
         profile: "Youtube",
         username: "Youtube",
         content: `Drop links to the videos that are helping you right now`,

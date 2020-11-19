@@ -1,0 +1,7 @@
+.t-col-contraine{
+    height: 100vh;
+    overflow: scroll;
+}
+.t-col-contraine >div{
+    margin-top: 1em;
+}

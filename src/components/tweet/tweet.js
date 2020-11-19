@@ -3,6 +3,8 @@ import Interaction from "../interaction/interaction";
 import './styles.css';
 
 class Tweet extends React.Component{
+
+
     render(){
         return (
             <div className="tweet-container">
@@ -22,7 +24,7 @@ class Tweet extends React.Component{
                     </p>
                 </div>
                 <div>
-                    <Interaction interaction={this.props.interaction}/>
+                    <Interaction interaction={this.props.interaction}interactions={this.props.interactions}index={this.props.index}/>
                 </div>
             </div>
         )
