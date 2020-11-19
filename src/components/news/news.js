@@ -12,7 +12,7 @@ class News extends React.Component{
                         <img src={this.props.profileUr} alt="profile" />
                     </div>
                     <div className="c2">
-                        <h6> Category:{this.props. category}</h6>
+                        <h6> Category:{/*this.props. category*/}</h6>
                         <h5>title:{this.props.title}</h5>
                     </div>
                 </div>

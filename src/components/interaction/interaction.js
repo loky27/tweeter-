@@ -21,7 +21,7 @@ const Interaction = (props) => {
             {props.interaction.retweets}
         </div>
         <div>
-            <div className="" className="" onClick={()=>props.interactions.tolikes(props.index)}>
+            <div className="" onClick={()=>props.interactions.tolikes(props.index)}>
             <HeartSolid/>
             </div>
             {props.interaction.likes}

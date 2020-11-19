@@ -32,13 +32,7 @@ class Feed extends React.Component {
             tolikes: this.likes,
             removeCountryFn: this.removeCountry,
         }
-        const {profile, username, content, display,interaction} = {
-            profile: "",
-            username: "",
-            content: "",
-            display: "",
-            interaction:""
-        };
+
 
         return (
             <div>

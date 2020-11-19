@@ -11,16 +11,6 @@ class Trends extends React.Component {
     }
 
     render() {
-
-        const {Notice, title, username, contentnotice,Url,  category,interaction} = {
-            Notice: "",
-            title: "",
-            username: "",
-            contentnotice: "",
-            category: "",
-            interaction:""
-        };
-
         return (
             <div>
                 {
@@ -28,7 +18,7 @@ class Trends extends React.Component {
                         return (
                             <News
                             title={tweet.title}
-                            profileUrl={tweet.Url}
+                    
                             category ={tweet.category}
                             username={tweet.username}
                             contentnotice={tweet.contentnotice}
