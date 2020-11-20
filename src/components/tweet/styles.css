@@ -12,7 +12,10 @@
     display: flex;
     align-items: center;
 }
-
+.nab {
+    display: flex;
+    justify-content: space-between;
+}
 .c1 {
     flex-basis: 7%;
 }
@@ -27,6 +30,19 @@
     padding: 0px 15px;
 }
 
+
+.c3 {
+    display: flex;
+    
+}
+
+.count-svg>div>svg {
+    margin: .75rem;
+    padding: .75rem;
+}
+.c2>div>font{
+    font-size: 1rem;
+}
 .c2>h6{
     text-align: left;
     margin: 5px 0px;

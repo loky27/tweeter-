@@ -18,7 +18,7 @@ class Trends extends React.Component {
                         return (
                             <News
                             title={tweet.title}
-                    
+                            profileUrl={tweet.Url}
                             category ={tweet.category}
                             username={tweet.username}
                             contentnotice={tweet.contentnotice}

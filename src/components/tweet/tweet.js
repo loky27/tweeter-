@@ -1,22 +1,32 @@
 import React from 'react';
 import Interaction from "../interaction/interaction";
 import './styles.css';
-
+import {DotsVerticalOutline} from '@graywolfai/react-heroicons';
 class Tweet extends React.Component{
 
 
     render(){
         return (
             <div className="tweet-container">
-                <div className="row">
-                    <div className="c1">
-                        <img src={this.props.profileUrl} alt="profile" />
-                    </div>
-                    <div className="c2">
-                        <h6>{this.props.profile}</h6>
-                        <h6>{this.props.username}</h6>
-                    </div>
-                    <div className="c3"></div>
+                <div className="nab">
+                    
+                        <div className="row">
+                            <div className="c1">
+                                <img src={this.props.profileUrl} alt="profile" />
+                            </div>
+                            <div className="c2">
+                                    <h6>{this.props.profile}</h6>
+                                    <h6>{this.props.username}</h6>           
+                            </div>
+                        </div>
+                        <div className="c3">
+                            <div className="count-svg">
+                                <div>
+                                    <DotsVerticalOutline/>                           
+                                </div>
+                            </div>
+                        </div>
+                    
                 </div>
                 <div className="row">
                     <p className="content">                
