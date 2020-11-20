@@ -13,7 +13,6 @@ class PrimaryCol extends React.Component {
     }
     likes = (index) => {
         let ones = this.state.tweets[index].like
-        let one = this.state.tweets[index]
         if (!ones) {
             let likeson = [...this.state.tweets];
             likeson[index].like = !likeson[index].like;
