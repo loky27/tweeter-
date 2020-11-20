@@ -15,7 +15,7 @@ const Interaction = (props) => {
             {props.interaction.comments}  
         </div >
         <div>
-            <div className="" onClick={props.retweets}>
+            <div className=""  onClick={()=>props.interactions.totweet(props.index)}>
                 <LinkOutline/>
             </div>
             {props.interaction.retweets}

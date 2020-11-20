@@ -2,9 +2,9 @@ import React from 'react';
 import Interaction from "../interaction/interaction";
 import './styles.css';
 import {DotsVerticalOutline} from '@graywolfai/react-heroicons';
+import Options from"../option/option"; 
+
 class Tweet extends React.Component{
-
-
     render(){
         return (
             <div className="tweet-container">
@@ -20,8 +20,9 @@ class Tweet extends React.Component{
                             </div>
                         </div>
                         <div className="c3">
+                            {this.props.opciones ? (<Options remove={this.props.interactions} index={this.props.index} />) :  null}
                             <div className="count-svg">
-                                <div>
+                                <div className="" onClick={() => this.props.interactions.optionMenu (this.props.index)}>
                                     <DotsVerticalOutline/>                           
                                 </div>
                             </div>

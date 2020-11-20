@@ -26,19 +26,28 @@ class App extends React.Component {
               < UserOutline />, 
               < DotsCircleHorizontalOutline />
             ],
-            profileUrl: 'https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg'
+            profile:{
+                like:false,
+                optionmenu:false,
+                url:"https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
+                profile: "user",
+                username: "user",
+                content: ` `,
+                interaction: {
+                    comments: 0,
+                    retweets: 0,
+                    likes: 0
+                },
+                verified: false,
+                blocked: false
+            },
         }
     }
-
-    cambiarImagen = () => {
-      this.setState({profileUrl: 'https://screenshots.gamebanana.com/img/ico/sprays/nu8_2.png'})
-    }
-
     render() {
         return (
             <div className="App">
-                <Sidebar iconList={this.state.iconArray} profileUrl={this.state.profileUrl} />
-                <Main  iconList={this.state.iconArray} profileUrl={this.state.profileUrl} />
+                <Sidebar iconList={this.state.iconArray} profileUrl={this.state.profile} />
+                <Main  iconList={this.state.iconArray} profileUrl={this.state.profile} />
             </div>
         )
     }

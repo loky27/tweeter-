@@ -17,7 +17,7 @@ const Sidebar = (props) => {
                     })
                 }
             </div>
-            <Account profileUrl={props.profileUrl}/>
+            <Account profileUrl={props.profileUrl.url}/>
         </div>
     )
 }
