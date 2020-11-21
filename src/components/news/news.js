@@ -9,10 +9,10 @@ class News extends React.Component{
             <div className="tweet-contain">
                 <div className="News">
                     <div className="news1">
-                        <img src={this.props.profileUr} alt="profile" />
+                        <img src={this.props.profileUrl} alt="profile" />
                     </div>
                     <div className="c2">
-                        <h6> Category:{/*this.props. category*/}</h6>
+                        <h6> Category:{`notice`}</h6>
                         <h5>title:{this.props.title}</h5>
                     </div>
                 </div>

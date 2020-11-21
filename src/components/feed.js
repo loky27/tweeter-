@@ -3,14 +3,7 @@ import Tweet from "./tweet/tweet";
 
 
 class Feed extends React.Component {
-
-
     render() {
-
-
-
-
-
         return (
             <div>
                

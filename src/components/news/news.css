@@ -1,9 +1,9 @@
 .tweet-contain{
     font-size: 1.2rem;
 }
-.tweet-contain> News > news1 >img{
+.news1 >img{
     background-color: blue;
-    width: 4rem;
+    width: 12rem;
 }
 .tweet {
     display: flex;
